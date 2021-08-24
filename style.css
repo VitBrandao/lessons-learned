@@ -9,7 +9,7 @@ body {
   left: 0;
   right: 0;
   background-color: aqua;
-  
+  z-index: 2;
 }
 
 #titulo {
@@ -21,4 +21,9 @@ body {
   height: 150px;
   position: relative;
   margin-top: 90px;
+  z-index: 1;
+}
+
+#rodape {
+  text-align: center;
 }
