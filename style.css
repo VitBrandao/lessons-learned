@@ -5,11 +5,14 @@ body {
 
 #cabecalho {
   position: fixed;
+  height: 70px;
   top: 0;
   left: 0;
   right: 0;
-  background-color: #81ae9d;
+  background-color: #B3BFB8;
   z-index: 2;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #2E382E; 
 }
 
 #titulo {
@@ -17,15 +20,16 @@ body {
 }
 
 #minha_foto {
-  width: 180px;
-  height: 180px;
+  width: 130px;
+  height: 130px;
   position: relative;
   margin-top: 100px;
   z-index: 1;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 15px;;
+  padding: 2px;
+  border-radius: 25px;
 }
 
 nav {
@@ -54,11 +58,12 @@ h3 {
   position: relative;
   margin-right: auto;
   margin-left: auto;
-  width: 480px;
+  width: fit-content;
 }
 
 td {
-  font-family: sans-serif;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 3px;
 }
 
 p {
@@ -93,6 +98,7 @@ h3 {
 
 #linkedin {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: medium;
 }
 
 .lastSections {
@@ -114,6 +120,5 @@ h3 {
 .lastSections {
   display: flex;
   flex-flow: row nowrap;
-  align-items: center;
   justify-content: center;
 }
